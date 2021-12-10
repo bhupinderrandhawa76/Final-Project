@@ -1,0 +1,687 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*
+{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+body
+{
+	border:0.1px solid #CCD0CF;
+	width:100%;
+	height:630px;
+}
+.header img 
+{
+	float:left;
+}
+.header h1
+{
+	float:left;
+	margin-top:30px;
+}
+.header
+{
+	position:fixed;
+	border:1px solid #CCD0CF;
+	width:100%;
+	background:#CCD0CF;
+	z-index:999;
+
+}
+.header span
+{
+	color:red;
+}
+.menu 
+{
+	margin-top:40px;
+	width:100%;
+	list-style:none;
+	
+}
+.menu li a 
+{
+	margin-left:7em;
+	font-family:"Ubuntu", sans-serif;
+	display:block;
+	font-size:18px;
+	font-weight:500;
+	transition:color 0.3s ease; 
+}
+.menu .menu-btn 
+{
+	text-decoration:none;
+	float:left;
+}
+.menu li a:hover
+{
+	color:crimson;
+}
+
+.header  a
+{
+	list-style:none;
+	text-decoration:none;
+	font-family:"Ubuntu", sans-serif;
+	color:Black;
+}
+.home
+{
+	width:100%;
+	height:732px;
+	margin-top:6.4em;
+	background:#F2F3F2;
+}
+.home img
+{
+	margin-left:1em;
+	float:left;
+	margin-top:8em;
+	margin-bottom:10px;
+}
+.home h1
+{
+	text-align:center;
+	font-family:"Ubuntu", sans-serif;
+	margin-top:0.5em;
+	font-weight:100vh;
+	font-size:50pt;
+}
+
+.home h2
+{
+	text-align:center;
+	font-family:"Ubuntu", sans-serif;
+	
+	font-size:25pt;
+}
+.welcome
+{
+	background:#CBCAB6;
+	width:50%;
+	height:300px;
+	float:right;
+	margin-top:15em;
+	margin-right:5em;
+	box-shadow: 5px 10px 5px 10px #888888;
+}
+.welcome h1,h2
+{
+	color:black;
+	
+}
+.transactions
+{
+	width:100%;
+	height:622px;
+	background:#CCD0CF;
+	border:0.1px solid #CCD0CF;	
+}
+.transactions h1
+{
+	text-align:center;
+	margin-top:3em;
+	margin-bottom:1em;
+	font-family:"Ubuntu", sans-serif;
+	font-size:25pt;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 80%;
+  margin:0px auto;
+  font-family:"Ubuntu", sans-serif;
+  font-size:15pt;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+.transactions h3
+{
+	text-align:center;
+	margin-top:10px;
+  font-family:"Ubuntu", sans-serif;
+  font-size:15pt;
+}
+
+.investment
+{
+	
+	width:100%;
+	background:#F2F3F2;
+	height:1250px;
+}
+.investment h1
+{
+	text-align:center;
+	letter-spacing:2px;
+	font-family:"Ubuntu", sans-serif;
+	
+}
+
+aside
+{
+	width:35%;
+	height:180px;
+	border-radius:5px;
+	float:left;
+	margin-top:8em;
+	margin-left:27em;	
+	margin-bottom:5px;
+	background-color:#E7E6DD;
+	box-shadow: 5px 10px 8px 10px #888888;
+}
+aside h1
+{
+
+}
+aside ul li 
+{
+	margin-left:5em;
+	padding:5px;
+	
+	font-size:15pt;
+    font-family:"Ubuntu", sans-serif;
+}
+
+.stock
+{
+	width:30%;
+	height:450px;
+	float:right;
+	background-color:#E7E6DD;
+	margin-right:5em;
+	margin-bottom:2px;
+	border-radius:5px;
+	box-shadow: 5px 10px 8px 10px #888888;
+	
+}
+.stockimage
+{
+	width:90%;
+	height:200px;
+	margin-left:2.5em;
+	
+}
+.stock p
+{
+	text-align:justify;
+	padding:2px;
+	margin-top:2em;
+	margin-left:5px;
+	margin-right:5px;
+	  font-family:"Ubuntu", sans-serif;
+}
+
+.saving
+{
+	width:30%;
+	height:450px;
+	border:1px solid #E7E6DD;
+	border-radius:5px;
+	float:left;
+	margin-left:5em;
+	background-color:#E7E6DD;
+	margin-top:0px;
+	box-shadow: 5px 10px 8px 10px #888888;
+}
+.savingimage
+{
+	width:90%;
+	height:200px;
+	margin-left:2.5em;
+}
+
+.saving p
+{
+	text-align:justify;
+	padding:2px;
+	margin-top:2em;
+	margin-left:5px;
+	margin-right:5px;
+	  font-family:"Ubuntu", sans-serif;
+}
+
+
+
+.estate
+{
+	width:30%;
+	height:450px;
+	border:1px solid #E7E6DD;
+	border-radius:5px;
+	float:left;
+	margin-left:29.5em;
+	margin-top:0px;
+	background-color:#E7E6DD;
+	box-shadow: 5px 10px 8px 10px #888888;
+}
+.realimage
+{
+	width:90%;
+	height:200px;
+	margin-left:2.5em;
+
+}
+.estate p
+{
+	text-align:justify;
+	padding:2px;
+	margin-top:2em;
+	margin-left:5px;
+	margin-right:5px;
+	font-family:"Ubuntu", sans-serif;
+}
+.transfer
+{
+	width:100%;
+	height:900px;
+	border:1px solid #CCD0CF;
+	background:#CCD0CF;
+	font-family:"Ubuntu", sans-serif;
+}
+.transfer h1
+{
+	margin-top:5em;
+	text-align:center;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+	
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width:80%;
+  margin:0px auto;
+  border-radius:10px;
+ box-shadow: 5px 10px 8px 10px #888888;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.transfer h1
+{
+	padding-bottom:1em;
+}
+.contact
+{
+	width:100%;
+	height:700px;
+	border:1px solid #F2F3F2;
+	background:#F2F3F2;
+	font-family:"Ubuntu", sans-serif;
+}
+
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container2 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width:60%;
+  height:500px;
+  margin-left:10px;
+  margin-top:1em;
+  margin:0px auto;
+  border-radius:10px;
+  box-shadow: 5px 10px 8px 10px #888888;
+}
+
+.contact h1
+{
+	margin-top:5em;
+	text-align:center;
+	margin-bottom:5px;
+}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+
+
+
+footer
+{
+	text-align:center;
+	width:100%;
+	height:50px;
+	color:white;
+	background:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:690px)
+{
+	.menu li a  
+	{
+		margin-left:15px;
+		margin-top:-15px;
+		
+	}
+	.header img 
+	{
+		width:70px;
+	}	
+	.header h1
+	{
+		font-size:15pt;
+		margin-top:25px;
+	}
+	.home
+	{
+		width:100%;
+		height:1150px;
+	}
+	.home img
+	{
+		margin-top:22em;
+		margin-left:3em;
+		width:80%;
+		height:400px;
+	}
+	.welcome
+	{
+		margin-top:3em;
+		width:100%;
+		float:left;
+	}
+}
+
+@media (max-width:947px)
+{
+	.header img
+	{
+		width:100px;
+		margin-left:130px;
+	}
+	.header h1
+	{
+		text-align:center;
+		margin-left:0em;
+	}
+	.header img 
+	{
+		margin-left:12em;
+	}
+	.menu
+	{
+		margin-top:6.5em;
+		width:100%;
+		height:220px;
+		background-color:Blue;
+		border:1px dotted pink;
+	}
+	
+	.menu .menu-btn
+	{
+		text-align:center;
+		margin-top:5px;
+		margin-bottom:1em;
+		display:inline-block;
+		width:100%;
+		
+	}
+}
+
+@media(max-width:1100px)
+{
+	.menu .menu-btn
+	{
+		text-align:center;
+		margin-right:5em;
+	}
+}
+@media (max-width:991px)
+{
+	.header img
+	{
+		width:100px;
+		margin-left:130px;
+	}
+	.header h1
+	{
+		text-align:center;
+		margin-left:0em;
+	}
+	.header img 
+	{
+		margin-left:12em;
+	}
+	.menu
+	{
+		margin-top:6.5em;
+		width:100%;
+		height:220px;
+		text-align:center;
+		background-color:Blue;
+		border:1px dotted pink;
+	}
+	
+	.menu .menu-btn
+	{
+		text-align:center;
+		margin-top:5px;
+		margin-bottom:1em;
+		display:inline-block;
+		width:100%;
+		
+	}
+}
+
+@media (max-width:1104px)
+{
+	
+}
+
+@media (max-width:1300px)
+{
+	
+}
+
+@media(max-width:800px)
+{
+	.menu li a  
+	{
+		margin-left:5px;
+		
+	}
+	header img 
+	{
+		width:170px;
+	}
+	header h1
+	{
+		font-size:15pt;
+		margin-top:25px;
+	}
+}
+
+@media(max-width:500px)
+{
+	.menu li a  
+	{
+		margin-left:15px;
+		margin-top:-15px;
+		
+	}
+	.header img 
+	{
+		width:70px;
+	}
+	.header h1
+	{
+		font-size:15pt;
+		margin-top:25px;
+	}
+}

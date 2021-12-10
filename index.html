@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>EasyBank</title>
+		 <link rel="icon" type="icon/ico" href="icon.png">
+		 <link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="header">
+			<img src="icon.png" width="100">
+			<h1><a href="#"><span>E</span>asy</a><a href="#">Bank</a></h1>
+			<ul class="menu">
+				<li><a href="#home" class="menu-btn">Home</a></li>
+				<li><a href="#transactions" class="menu-btn">Transactions</a></li>
+				<li><a href="#investment" class="menu-btn">Investment</a></li>
+				<li><a href="#transfer" class="menu-btn">Transfer</a></li>
+				<li><a href="#contact" class="menu-btn">Contact</a></li>
+	        </ul>
+		</div>
+		<section class="home" id="home">
+				<img src="money.jpg" width="500" height="600">
+				<div class="welcome">
+					<h1>Welcome To EasyBank</h1>
+					<h2>"Committed To Helping Our Customers Succeed"</h2>
+				</div>
+		</section>
+		<section class="transactions" id="transactions">
+			<h1>My Transactions</h1>
+				<div style="overflow-x:auto;">
+				  <table>
+					<tr>
+				      <th>S.No.</th>
+					  <th>Receiver Name</th>
+					  <th>Amount</th>
+					  <th>Bank Name</th>
+					  <th>Transaction Id</th>
+					  <th>Status</th>
+					  </tr>
+					<tr>
+					  <td>1</td>
+					  <td>Jill Smith</td>
+					  <td>500$</td>
+					  <td>ScotiaBank</td>
+					  <td>EB101</td>
+					  <td>Success</td>
+					</tr>
+					<tr>
+					  <td>2</td>
+					  <td>Jacky Smith</td>
+					  <td>10,000$</td>
+					  <td>BMO</td>
+					  <td>EB102</td>
+					  <td>Success</td>
+					</tr>
+					<tr>
+					  <td>3</td>
+					  <td>Chris Smith</td>
+					  <td>15,000$</td>
+					  <td>RBC</td>
+					  <td>EB103</td>
+					  <td>Success</td>
+					</tr>
+					<tr>
+					  <td>4</td>
+					  <td>Alexa</td>
+					  <td>25,000$</td>
+					  <td>TD Canada</td>
+					  <td>EB104</td>
+					  <td>Success</td>
+					</tr>
+					<tr>
+					  <td>5</td>
+					  <td>Methew LeGood</td>
+					  <td>15000$</td>
+					  <td>RBC</td>
+					  <td>EB105</td>
+					  <td>Success</td>
+					</tr>
+					<tr>
+					  <td>6</td>
+					  <td>Rob LeGood</td>
+					  <td>15000$</td>
+					  <td>CIBC</td>
+					  <td>EB106</td>
+					  <td>Success</td>
+					</tr>
+					<tr>
+					  <td>7</td>
+					  <td>Christopher Loo</td>
+					  <td>15000$</td>
+					  <td>Scotia Bank</td>
+					  <td>EB107</td>
+					  <td>Success</td>
+					</tr>
+				  </table>
+				  <h3>"Thanks For Sending Money"</h3>
+				</div>
+		</section>
+		<section class="investment" id="investment">
+		
+			<aside>
+				<ul>
+					<h1>Various Ways To Invest Money</h1>
+					<li>Stock Market</li>
+					<li>Saving in Bank</li>
+					<li>Make FD's</li>
+					<li>Real Estate</li>
+					
+				</ul>
+			</aside>
+			<div class="stock">
+				<h1>Stock Market</h1>
+				<div class="stockimage"><img src="stock2.jpg" width="90%" height="200px"></div>
+				<p>A stock market, equity market, or share market is the aggregation of buyers and sellers of stocks (also called shares), which represent ownership claims on businesses; these may include securities listed on a public stock exchange, as well as stock that is only traded privately, such as shares of private companies which are sold to investors through equity crowdfunding platforms. </p>
+			</div>
+			
+			<div class="saving">
+				<h1>Stock Market</h1>
+				<div class="savingimage"><img src="saving2.png" width="90%" height="200px"></div>
+				<p>The Rule is simple: If you see something you want, wait 30 days before buying it. After 30 days, if you still wish to buy the item, move ahead with the purchase. If you forget about it or realise that you don't need it, you will end up saving that expense.Be specific with how much you want to save. From the start, set an amount that you want to have saved by next year.</p>
+			</div>
+			
+			<div class="estate">
+				<h1>Real Estate</h1>
+				<div class="realimage"><img src="realEstate.jpg" width="90%" height="200px"></div>
+				<p>Real estate is property consisting of land and the buildings on it, along with its natural resources such as crops, minerals or water; immovable property of this nature; an interest vested in this (also) an item of real property, (more generally) buildings or housing in general.Multi-family house – Often seen in multi-story detached buildings, where each floor is a separate apartment or unit	</p>
+			</div>
+		</section>
+		<section class="transfer" id="transfer">
+			<h1>Please Enter Receiver Detail</h1>
+			<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Last Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Amount</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Amount..">
+    </div>
+  </div>
+  
+   <div class="row">
+    <div class="col-25">
+      <label for="lname">Bank Code</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="IFSC Code..">
+    </div>
+  </div>
+  
+  
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Bank Name</label>
+    </div>
+    <div class="col-75">
+      <select id="country" name="Bank">
+        <option value="australia">Please Select Bank</option>
+       <option value="australia">RBC</option>
+        <option value="canada">TD Canada</option>
+        <option value="usa">CIBC</option>
+        <option value="usa">BMO</option>
+        <option value="usa">Bank of Nova Scotia</option>
+      </select>
+    </div>
+  </div>
+  
+   <div class="row">
+    <div class="col-25">
+      <label for="country">Relationship</label>
+    </div>
+    <div class="col-75">
+      <select id="country" name="Bank">
+        <option value="australia">Please Select Relationship With The Sender</option>
+       <option value="australia">Brother</option>
+        <option value="canada">Sister</option>
+        <option value="usa">Mother</option>
+        <option value="usa">Father</option>
+        <option value="usa">Friend</option>
+        <option value="usa">Wife</option>
+      </select>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Subject</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <input type="submit" value="Send Money">
+  </div>
+  </form>
+</div>
+		</section>
+		
+		<section class="contact" id="contact">
+		<h1>Contact form</h1>
+		
+			<div class="container2">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+     <label for="fname">Mobile Number</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your Mobile No..">
+    
+     <label for="fname">Email</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your Email..">
+    
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:50px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<button class="open-button" onclick="openForm()">Chat</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+		</section>
+	<footer>
+		<h1>copyright@2021</h1>
+	</footer>
+	</body>
+</html>
